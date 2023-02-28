@@ -1,0 +1,292 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "5588b0ea-b778-11ed-b15b-6014b3626a8e",
+    "deck_config_uuid": "5588b0eb-b778-11ed-aa9c-6014b3626a8e",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "5588b0eb-b778-11ed-aa9c-6014b3626a8e",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Domyślna",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [
+        "Image1621.gif",
+        "Image1622.gif",
+        "Image1658.gif",
+        "Image1659.gif",
+        "Image1660.gif"
+    ],
+    "name": "Analiza matematyczna",
+    "newLimit": null,
+    "newLimitToday": null,
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Przód",
+                    "ord": 0,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Tył",
+                    "ord": 1,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Podstawowy (z odwrotną kartą)",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ],
+                [
+                    1,
+                    "any",
+                    [
+                        1
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Tył}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Karta 1",
+                    "ord": 0,
+                    "qfmt": "{{Przód}}"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Przód}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Karta 2",
+                    "ord": 1,
+                    "qfmt": "{{Tył}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kwantyfikatory",
+                "<ul><li><u>ogólny</u> \\(\\bigwedge\\) \"dla każdego\"</li><li><u>szczegółowy</u> \\(\\bigvee\\) \"istnieje\"</li></ul>"
+            ],
+            "guid": "qkb4U_)?3/",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ciąg",
+                "Nazywamy tak dowolną funkcję \\(f:\\mathbb{N}\\rightarrow\\mathbb{R}\\), która każdej liczbie naturalnej przypisuje liczbę rzeczywistą.<br>Elementy ciągu \\(f\\), tj. liczby \\(f(n)\\) zwane <u>wyrazami</u> ciągu.<br>Ciąg \\(f\\) oznaczany jest np. jako<br>\\((a_{n})_{n=1}^{\\infty}\\); \\((a_{n}), n\\in\\mathbb{N}\\); \\((a_{n})\\)<br>"
+            ],
+            "guid": "Rbp2C4CHu<",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ciąg(\\((a_{n}\\)) nazywamy <u>zbieżnym,</u>...",
+                "jeśli istnieje taka liczba rzeczywista \\(a\\), że spełniony jest warunek<br>\\(\\bigwedge_{\\varepsilon&gt;0}\\bigvee_{n_{0}\\in\\mathbb{N}}\\bigwedge_{n&gt;n_{0}} |a_{n}-a|&lt;\\varepsilon\\)"
+            ],
+            "guid": "g[NYdl]th}",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Liczbę \\(a\\) nazywamy <u>granicą</u> ciągu i piszemy...",
+                "\\(\\lim_{n \\to \\infty} a_{n} :=a\\)&nbsp;lub \\(a_{n}\\rightarrow a\\)"
+            ],
+            "guid": "j}<4e)b7H2",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ciąg który nie jest zbieżny nazywamy...",
+                "rozbnieżnym"
+            ],
+            "guid": "CG[=H;-g{s",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Każdy ciąg zbieżny jest...",
+                "ograniczony, tzn. ograniczony jest jego zbiór wyrazów"
+            ],
+            "guid": "IPGI~*F->W",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Granica oznaczona jednoznacznie",
+                "Jeśli&nbsp;\\(\\lim_{n \\to \\infty} a_{n} = a_{1}, \\lim_{n \\to \\infty} a_{n} = a_{2}\\), to \\(a_{1} = a_{2}\\)"
+            ],
+            "guid": "u=)Ykn4_Tu",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Twierdzenie o ciągłości modułu",
+                "Jeśli \\(\\lim_{n \\to \\infty} a_{n} = a\\) to \\(\\lim_{n \\to \\infty} |a_{n}| = |a|\\)"
+            ],
+            "guid": "Jo&-=/?Lgr",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Twierdzenie o ciągłości działań arytmetycznych",
+                "<div>Jeżeli ciągi \\((a_{n}),(b_{n})\\)&nbsp;są zbieżne oraz</div><div><img src=\"Image1658.gif\"></div><div>to zachodzą wzory:</div><div><img src=\"Image1659.gif\"></div><div><img src=\"Image1621.gif\"></div><div><img src=\"Image1622.gif\"></div><div><img src=\"Image1660.gif\"></div><div>przy założeniu w ostatnim wzorze, że&nbsp;<i>\\(b_{n}\\neq 0\\)</i>&nbsp;dla każdego&nbsp;<i>\\(n\\)</i>&nbsp;oraz&nbsp;<i>\\(b\\neq 0\\)</i>.</div>"
+            ],
+            "guid": "dj@?GkBVTm",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Twierdzenie o trzech ciągach",
+                "Jeśli<br>\\(\\bigwedge_{n_{0}\\in\\mathbb{N}}\\bigvee_{n&gt;n_{0}} a_{n}\\leq b_{n}\\leq c_{n}\\)<br>oraz<br>\\(\\lim_{n\\to\\infty}a_{n}=b\\), \\(\\lim_{n\\to\\infty}c_{n}=b\\)<br>to<br>\\(\\lim_{n\\to\\infty}b_{n}=b\\)"
+            ],
+            "guid": "vGD5|g%E1w",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Twierdzenie o przechodzeniu do granicy w nierównościach",
+                "Jeśli<br>\\(\\bigvee_{n_{0}\\to\\mathbb{N}}\\bigwedge_{n&gt;n_{0}} a_{n}\\leq b_{n}\\)<br>oraz<br>\\(\\lim_{n\\to\\infty}a_{n}=a\\), \\(\\lim_{n\\to\\infty}b_{n}=b\\)<br>to<br>\\(a\\leq b\\)"
+            ],
+            "guid": "EXZb__<z*l",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ciąg \\((a_{n})\\) nazywamy(monotoniczność)...",
+                "<ol><li><u>niemalejącym</u>, jeśli \\(\\bigwedge_{n\\in\\mathbb{N}}a_{n+1}\\geq a_{n}\\)</li><li><u>rosnącym</u>, jeśli&nbsp;\\(\\bigwedge_{n\\in\\mathbb{N}}a_{n+1}&gt; a_{n}\\)</li><li><u>nierosnącym</u>, jeśli&nbsp;\\(\\bigwedge_{n\\in\\mathbb{N}}a_{n+1}\\leq a_{n}\\)</li><li><u>malejącym</u>, jeśli&nbsp;\\(\\bigwedge_{n\\in\\mathbb{N}}a_{n+1}&lt; a_{n}\\)</li></ol><div>Ciągi spełniające warunek 2 lub 4 nazywane są <u>ściśle monotonicznymi</u>, natomiast 1 lub 3 <u>monotonicznymi.</u></div>"
+            ],
+            "guid": "eaM,gVfXj^",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ciąg \\((a_{n})\\) ma granicę...",
+                "<ol><li>nieskończoną(niewłaściwą) \\(+\\infty\\), jeśli \\(\\bigwedge_{M&gt;0}\\bigvee_{n_{0}\\in\\mathbb{N}}\\bigwedge_{n&gt;n_{0}}a_{n}&gt;M\\)</li><li>nieskończoną(niewłaściwą)&nbsp;\\(-\\infty\\), jeśli&nbsp;\\(\\bigwedge_{M&gt;0}\\bigvee_{n_{0}\\in\\mathbb{N}}\\bigwedge_{n&gt;n_{0}}a_{n}&lt;-M\\)</li></ol>"
+            ],
+            "guid": "wS4V&fY$es",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ciąg \\((1+\\frac{1}{n})^n\\)",
+                "jest zbieżny, granicę ciągu \\((a_{n})\\) oznaczamy przez \\(e\\). Zatem \\(e=\\lim_{n\\to\\infty}(1+\\frac{1}{n})^n\\) - liczba Eulera"
+            ],
+            "guid": "whWb9!>i3q",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        }
+    ],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}

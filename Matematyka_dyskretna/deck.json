@@ -1,0 +1,268 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "74b68ad7-b778-11ed-adfc-6014b3626a8e",
+    "deck_config_uuid": "5588b0eb-b778-11ed-aa9c-6014b3626a8e",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "5588b0eb-b778-11ed-aa9c-6014b3626a8e",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Domyślna",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [
+        "328657779_1961499867529070_5395575604957171134_n.jpg"
+    ],
+    "name": "Matematyka dyskretna",
+    "newLimit": null,
+    "newLimitToday": null,
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Przód",
+                    "ord": 0,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Tył",
+                    "ord": 1,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Podstawowy (z odwrotną kartą)",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ],
+                [
+                    1,
+                    "any",
+                    [
+                        1
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Tył}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Karta 1",
+                    "ord": 0,
+                    "qfmt": "{{Przód}}"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Przód}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Karta 2",
+                    "ord": 1,
+                    "qfmt": "{{Tył}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "Zasada indukcji matematycznej",
+                "Niech \\(p(n)\\), \\(n\\in\\mathbb{N}\\)&nbsp;będzie zdaniem, które może być prawdziwe lub fałszywe.<br>Jeśli:<br><ol><li>dla pewnego \\(n_{0}\\in\\mathbb{N},p(n_{0})\\) jest prawdziwe</li><li>dla każdego \\(k\\geqslant n_{0}\\)&nbsp; \\(p(k) \\Rightarrow p(k+1)\\)(założenie indukcyjne)&nbsp;zachodzi implikacja \\(p(n)\\) jest prawdziwe dla wszystkich lliczb naturalnych \\(n \\geqslant n_{0}\\)</li></ol><br>"
+            ],
+            "guid": "O^<`%Qv2gT",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Zasada indukcji matematycznej wzór",
+                "<img src=\"328657779_1961499867529070_5395575604957171134_n.jpg\">"
+            ],
+            "guid": "v+|q>.HsY>",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Zasada bijekcji",
+                "\\(A, B\\) - zbiory skończone<br>oraz<br>istnieje funkcja \\(f:A\\rightarrow B\\)<br>to<br>\\(|A|=|B|\\)&nbsp;- liczba elementów"
+            ],
+            "guid": "no}s;]7}}=",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "\\(P(x)\\) - co to?",
+                "zbiór podzbiorów zbioru \\(x\\)"
+            ],
+            "guid": "h50?w/6&8G",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Przykład zasady bijekcji",
+                "Liczba podzbiorów \\(n\\)-elementowego jest równa liczbie \\(n\\)-elementowych ciągów binarnych.<br>\\(f:P({1, 2, ..., n)}\\rightarrow\\mathbb{B}^n\\)<br>Podzbiór \\({1, 2, 5}\\) reprezentujemy ciągiem \\((1, 1, 0, 0, 1)\\)"
+            ],
+            "guid": "zt,sz@v:q?",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Zasada dodawania - wersja elementarna",
+                "\\(A, B\\) - zbiory skończone<br>oraz<br>\\(A\\cap B = \\emptyset\\)<br>to <br>\\(|A\\cup B| = |A| + |B|\\)"
+            ],
+            "guid": "j7;RtOe7Up",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Zasada dodawania - wersja pełna",
+                "Jeśli \\(A_1, A_2, ..., A_n\\) są zbiorami skończonymi parami rozłącznymi, tzn. \\(A_i \\cap A_j = \\emptyset\\), dla \\(i \\neq j\\)<br>to<br>\\(|A_1 \\cup A_2 \\cup ... \\cup A_n | = |A_1 | + |A_2 | + ... + |A_n |\\)<br>lub inczej<br>\\(|\\bigcup_{k=1}^{n}A_k | = \\sum_{k=1}^{n}|A_k |\\)"
+            ],
+            "guid": "yyKJs1FzM~",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Zasada mnożenia - wersja elementarna",
+                "\\((A, B - \\textrm{zbiory skończone})\\implies (|A\\times B|=|A|*|B|))\\)"
+            ],
+            "guid": "sJWO}r1]Ah",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Zasada mnożenia - wersja pełna",
+                "\\((A_1 , A_2 , ... , A_n ) \\textrm{- zbiory skończone})\\implies |A_1 \\times A_2 \\times ... \\times A_n|=|A_1|*|A_2|*...*|A_n|\\)lub\\(\\implies |\\bigtimes_{k=1}^n A_k| = \\prod_{k=1}^n |A_k|\\)"
+            ],
+            "guid": "e8O$k/H3fN",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Schematy wyboru - Czy kolejność jest istotna?",
+                "TAK - wariacje;<br>NIE - kombinacje;"
+            ],
+            "guid": "NVl.sCR>+=",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Schematy wyboru - Czy elementy mogą się powtarzać?",
+                "TAK - z powtórzeniami;<br>NIE - bez powtórzeń;"
+            ],
+            "guid": "IBZ-cU-@t.",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "wariacje z powtórzeniami (T, T)",
+                "\\(A={a_1 , ..., a_n}\\) - wariacja \\(k\\)-elementowa ze zbioru \\(n\\)-elementowego&nbsp;\\[\\parallel\\]\\(k\\)-elemenotwy ciąg o elementach z tego zbioru \\(A\\)&nbsp;<br>\\(\\stackrel{\\textrm{k razy}} {|A\\times A\\times ...\\times A|} \\stackrel{\\text{Z.M.}}{=}|A|^k = n^k\\)<br><br>\\(\\bar{\\vee}_n^k=n^k\\)&nbsp;- liczba \\(k\\)-elementowych wariacji z powtórzeniami z zbioru \\(n\\)-elementowego"
+            ],
+            "guid": "cCiJ5JwxQ/",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        }
+    ],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}

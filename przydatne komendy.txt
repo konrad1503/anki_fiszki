@@ -1,0 +1,7 @@
+\stackrel{}{} = jedno nad drugim
+\times - iloczyn kartezjański
+\parallel - równa się(pionowo)
+\bigtimes
+\prod - zastępuje mnożenie
+\bigcup_{}^
+\sum_{}^
