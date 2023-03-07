@@ -261,6 +261,46 @@
             "guid": "cCiJ5JwxQ/",
             "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
             "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "wariacje bez powtórzeń (T, N)",
+                "\\(k\\)-wyrazowy ciąg o elementach ze zbioru \\(n\\)-elementowego którego wyrazy nie mogą się powtarzać<br>\\(\\vee_{p}^{k} \\stackrel{O.Z.M}{=} n*(n-1)*(n-2)*...*(n-k+1) = \\frac{n!}{(n-k)!}\\)Liczba \\(k\\)-elementowych wariacji bez powtórzeń ze zbioru \\(n\\)-elementowego"
+            ],
+            "guid": "nP9tZ%x$Yt",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "permutacja/przestawienie",
+                "Jeśli wykorzystujemy wszystkie elementy zbioru\\((b, a, e, d, c)\\)<br><br>Liczba permutacji zbioru \\(n\\)-elementowego \\(\\vee_{n}^{n} = P_{n} = n*(n-1)*...*2*1 = n!\\)<br>"
+            ],
+            "guid": "sa$K=VmY(i",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kombinacje bez powtórzeń (N, N)",
+                "\\(k!\\) wariacji bez powtórzeń daje tą samą k-elementową kombinację<br>\\(\\vee_{n}^{k}\\) dzielimy na grupy wariacji zawierających te same elementy w każdej grupie mamy \\(k!\\) wariacji<br><br>Liczba grup wariacji to \\(\\frac{\\vee_{n}^{k}}{k!}=C_{n}^{k}\\) - liczba \\(k\\)-elementowych kombinacji bez powtórzeń ze zbioru \\(n\\)-elementowego<br><br>\\(k\\)-elementowych kombinacji bez powtórzeń ze zbioru \\(n\\)-elementowego \\(A\\) nazywamy \\(k\\)-wyrazowy podzbiór tego zbioru<br>\\(C_{n}^{k}=\\frac{n!}{(n-k)!*k!} = \\binom{n}{k}\\)"
+            ],
+            "guid": "vc/>$hg}pY",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kombinacje z powtórzeniami (N, T)",
+                "\\(k\\)-elementowych kombinacji z powtórzeniami ze zbioru \\(n\\)-elementowego \\(A\\) nazywamy \\(k\\)-wyrazowy multizbiór o wyrazach z \\(A\\)<br>\\(\\bar{C}_n^k=C_{k+n-1}^{n-1}=\\binom{k+n-1}{n-1}=\\frac{(k+n-1)!}{(n-1)!k!}=\\binom{k+n-1}{k}\\)"
+            ],
+            "guid": "QA)5u;40#?",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
         }
     ],
     "reviewLimit": null,
