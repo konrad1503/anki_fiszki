@@ -301,6 +301,16 @@
             "guid": "QA)5u;40#?",
             "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
             "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Zasada szufladkowa (Dirichleta)",
+                "Jeśli rozkładamy \\(n\\) przedmiotów do \\(m\\) szuflad i \\(n&gt;k*m, k\\in\\mathbb{N}\\) to istnieje szuflada zawierająca przynajmniej \\(k+1\\) przedmiotów."
+            ],
+            "guid": "w*)j>]1e+r",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
         }
     ],
     "reviewLimit": null,
