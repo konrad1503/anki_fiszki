@@ -311,6 +311,26 @@
             "guid": "w*)j>]1e+r",
             "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
             "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Nieporządki",
+                "permutacje bez punktów stałych,<br>\\(D_{n}\\) - liczba nieporządków \\(n\\)-elementowych<br><br>\\(\\frac{D_{n}}{P_{n}} = \\sum_{k=0}^n \\frac{(-1)^{k}}{k!} \\stackrel{\\longrightarrow}{n\\to\\infty} \\frac{1}{e}\\)&nbsp;- szereg jest bardzo szybko zbieżny"
+            ],
+            "guid": "peJa`9OkvA",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Tożsamość Pascala",
+                "\\(\\binom{n}{k-1}+\\binom{n}{k}=\\binom{n+1}{k}\\)<br><br>Dowód<br>\\(\\binom{n}{k-1}+\\binom{n}{k}=\\frac{k*n!}{k*(k-1)!(n-k+1)!}+\\frac{n!*(n-k+1)}{k!*(n-k)!*(n-k+1)}=\\)<br>\\(=\\frac{n!}{k!*(n-k+1)!} * [k+(n-k+1]=\\frac{(n+1)!}{k!*(n+1-k)!}=\\binom{n+1}{k}\\)"
+            ],
+            "guid": "gPe@p:Wg9&",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
         }
     ],
     "reviewLimit": null,
