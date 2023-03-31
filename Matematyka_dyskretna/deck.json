@@ -35,7 +35,7 @@
                     0
                 ],
                 "order": 1,
-                "perDay": 20
+                "perDay": 10
             },
             "newGatherPriority": 0,
             "newMix": 0,
@@ -47,7 +47,7 @@
                 "ease4": 1.3,
                 "hardFactor": 1.2,
                 "ivlFct": 1.0,
-                "maxIvl": 36500,
+                "maxIvl": 7,
                 "perDay": 200
             },
             "reviewOrder": 0,
@@ -146,7 +146,7 @@
             "__type__": "Note",
             "fields": [
                 "Zasada indukcji matematycznej",
-                "Niech \\(p(n)\\), \\(n\\in\\mathbb{N}\\)&nbsp;będzie zdaniem, które może być prawdziwe lub fałszywe.<br>Jeśli:<br><ol><li>dla pewnego \\(n_{0}\\in\\mathbb{N},p(n_{0})\\) jest prawdziwe</li><li>dla każdego \\(k\\geqslant n_{0}\\)&nbsp; \\(p(k) \\Rightarrow p(k+1)\\)(założenie indukcyjne)&nbsp;zachodzi implikacja \\(p(n)\\) jest prawdziwe dla wszystkich lliczb naturalnych \\(n \\geqslant n_{0}\\)</li></ol><br>"
+                "Niech \\(p(n)\\), \\(n\\in\\mathbb{N}\\)&nbsp;będzie zdaniem, które może być prawdziwe lub fałszywe.<br>Jeśli:<br><ol><li>dla pewnego \\(n_{0}\\in\\mathbb{N},p(n_{0})\\) jest prawdziwe</li><li>dla każdego \\(k\\geqslant n_{0}\\)&nbsp; \\(p(k) \\Rightarrow p(k+1)\\)(założenie indukcyjne)&nbsp;zachodzi implikacja \\(p(n)\\) jest prawdziwe dla wszystkich liczb naturalnych \\(n \\geqslant n_{0}\\)</li></ol><br>"
             ],
             "guid": "O^<`%Qv2gT",
             "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
@@ -226,7 +226,7 @@
             "__type__": "Note",
             "fields": [
                 "Zasada mnożenia - wersja pełna",
-                "\\((A_1 , A_2 , ... , A_n ) \\textrm{- zbiory skończone})\\implies |A_1 \\times A_2 \\times ... \\times A_n|=|A_1|*|A_2|*...*|A_n|\\)lub\\(\\implies |\\bigtimes_{k=1}^n A_k| = \\prod_{k=1}^n |A_k|\\)"
+                "\\((A_1 , A_2 , ... , A_n ) \\textrm{- zbiory skończone})\\implies |A_1 \\times A_2 \\times ... \\times A_n|=|A_1|*|A_2|*...*|A_n|\\)lub\\(\\implies |\\times_{k=1}^n A_k| = \\prod_{k=1}^n |A_k|\\)"
             ],
             "guid": "e8O$k/H3fN",
             "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
@@ -266,7 +266,7 @@
             "__type__": "Note",
             "fields": [
                 "wariacje bez powtórzeń (T, N)",
-                "\\(k\\)-wyrazowy ciąg o elementach ze zbioru \\(n\\)-elementowego którego wyrazy nie mogą się powtarzać<br>\\(\\vee_{p}^{k} \\stackrel{O.Z.M}{=} n*(n-1)*(n-2)*...*(n-k+1) = \\frac{n!}{(n-k)!}\\)Liczba \\(k\\)-elementowych wariacji bez powtórzeń ze zbioru \\(n\\)-elementowego"
+                "\\(k\\)-wyrazowy ciąg o elementach ze zbioru \\(n\\)-elementowego którego wyrazy nie mogą się powtarzać<br>\\(\\vee_{n}^{k} \\stackrel{O.Z.M}{=} n*(n-1)*(n-2)*...*(n-k+1) = \\frac{n!}{(n-k)!}\\)Liczba \\(k\\)-elementowych wariacji bez powtórzeń ze zbioru \\(n\\)-elementowego"
             ],
             "guid": "nP9tZ%x$Yt",
             "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
@@ -276,7 +276,7 @@
             "__type__": "Note",
             "fields": [
                 "permutacja/przestawienie",
-                "Jeśli wykorzystujemy wszystkie elementy zbioru\\((b, a, e, d, c)\\)<br><br>Liczba permutacji zbioru \\(n\\)-elementowego \\(\\vee_{n}^{n} = P_{n} = n*(n-1)*...*2*1 = n!\\)<br>"
+                "Wariacja baz powtórzeń w której wykorzystujemy wszystkie elementy zbioru.<br><br>Liczba permutacji zbioru \\(n\\)-elementowego \\(\\vee_{n}^{n} = P_{n} = n*(n-1)*...*2*1 = n!\\)<br>"
             ],
             "guid": "sa$K=VmY(i",
             "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
@@ -286,7 +286,7 @@
             "__type__": "Note",
             "fields": [
                 "kombinacje bez powtórzeń (N, N)",
-                "\\(k!\\) wariacji bez powtórzeń daje tą samą k-elementową kombinację<br>\\(\\vee_{n}^{k}\\) dzielimy na grupy wariacji zawierających te same elementy w każdej grupie mamy \\(k!\\) wariacji<br><br>Liczba grup wariacji to \\(\\frac{\\vee_{n}^{k}}{k!}=C_{n}^{k}\\) - liczba \\(k\\)-elementowych kombinacji bez powtórzeń ze zbioru \\(n\\)-elementowego<br><br>\\(k\\)-elementowych kombinacji bez powtórzeń ze zbioru \\(n\\)-elementowego \\(A\\) nazywamy \\(k\\)-wyrazowy podzbiór tego zbioru<br>\\(C_{n}^{k}=\\frac{n!}{(n-k)!*k!} = \\binom{n}{k}\\)"
+                "\\(k!\\) wariacji bez powtórzeń daje tą samą k-elementową kombinację<br>\\(\\vee_{n}^{k}\\) dzielimy na grupy wariacji zawierających te same elementy, w każdej grupie mamy \\(k!\\) wariacji<br><br>Liczba grup wariacji to \\(\\frac{\\vee_{n}^{k}}{k!}=C_{n}^{k}\\) - liczba \\(k\\)-elementowych kombinacji bez powtórzeń ze zbioru \\(n\\)-elementowego<br><br>\\(k\\)-elementowych kombinacji bez powtórzeń ze zbioru \\(n\\)-elementowego \\(A\\) nazywamy \\(k\\)-wyrazowy podzbiór tego zbioru<br>\\(C_{n}^{k}=\\frac{n!}{(n-k)!*k!} = \\binom{n}{k}\\)"
             ],
             "guid": "vc/>$hg}pY",
             "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
@@ -329,6 +329,36 @@
                 "\\(\\binom{n}{k-1}+\\binom{n}{k}=\\binom{n+1}{k}\\)<br><br>Dowód<br>\\(\\binom{n}{k-1}+\\binom{n}{k}=\\frac{k*n!}{k*(k-1)!(n-k+1)!}+\\frac{n!*(n-k+1)}{k!*(n-k)!*(n-k+1)}=\\)<br>\\(=\\frac{n!}{k!*(n-k+1)!} * [k+(n-k+1]=\\frac{(n+1)!}{k!*(n+1-k)!}=\\binom{n+1}{k}\\)"
             ],
             "guid": "gPe@p:Wg9&",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Tożsamość Pascala dowód kombinatoryczny",
+                "\\(\\binom{n}{k-1}+\\binom{n}{k}=\\binom{n+1}{k}\\)<br>Prawa strona - liczba \\(k\\)-elementowych podzbiorów zbioru \\(\\{1, 2, ..., n, n+1\\}\\)<br>I klasa - podzbiory zawierające \\(n+1\\):<br>\\(\\{\\stackrel{k-1}{...}, n+1\\}\\) przy czym \\(k-1\\) od \\(1\\) do \\(n\\) czyli \\(\\binom{n}{k-1}\\)<br>II klasa - podzbiory niezawierające \\(n+1\\):<br>\\(\\{\\stackrel{k}{...}\\}\\) przy czym \\(k\\)-el. od \\(1\\) do \\(n\\) czyli \\(\\binom{n}{k}\\)<br><br>\\(\\stackrel{I \\cup II -szukane\\space podzbiory}{I \\cap II\\neq0} \\implies |I| +|II|=\\binom{n+1}{k}\\)&nbsp;"
+            ],
+            "guid": "f+_KT/b&cW",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Tożsamości kombinatoryczne",
+                "Równości wynikające z róznego sposobu przeliczenia tego samego zbioru lub z równoliczności róznych zbiorów pomiędzy którymi zachodzi bijekcja."
+            ],
+            "guid": "m5zKS7ivyX",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Równanie rekurencyjne",
+                "Wyznaczamy element \\(a_{n}\\) ciągu odwołując się do znajomości poprzednich wyrazów ciągu."
+            ],
+            "guid": "HLY8;tel1,",
             "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
             "tags": []
         }
