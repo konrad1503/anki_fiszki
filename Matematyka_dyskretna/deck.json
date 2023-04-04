@@ -276,7 +276,7 @@
             "__type__": "Note",
             "fields": [
                 "permutacja/przestawienie",
-                "Wariacja baz powtórzeń w której wykorzystujemy wszystkie elementy zbioru.<br><br>Liczba permutacji zbioru \\(n\\)-elementowego \\(\\vee_{n}^{n} = P_{n} = n*(n-1)*...*2*1 = n!\\)<br>"
+                "Wariacja bez powtórzeń w której wykorzystujemy wszystkie elementy zbioru.<br><br>Liczba permutacji zbioru \\(n\\)-elementowego \\(\\vee_{n}^{n} = P_{n} = n*(n-1)*...*2*1 = n!\\)<br>"
             ],
             "guid": "sa$K=VmY(i",
             "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
@@ -359,6 +359,66 @@
                 "Wyznaczamy element \\(a_{n}\\) ciągu odwołując się do znajomości poprzednich wyrazów ciągu."
             ],
             "guid": "HLY8;tel1,",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Rekurencja głębokości \\(r\\)",
+                "Musimy znać \\(r\\) wyrazów poprzedzających, \\(a_{0}, a_{1}, ..., a_{r-1}\\) - dane początkowe"
+            ],
+            "guid": "BM21Or*Xqw",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Rekurencje liniowe jednorodne o stałych współczynnikach",
+                "\\(a_{n}=c_{1}a_{n-1}+c_{2}a_{n-2}+...+c_{r}a_{n-r}\\)<br>\\(c_{1}, c_{2}, ..., c_{r}\\) - stałe"
+            ],
+            "guid": "sqn:I/4/9h",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "równanie i wielomian charakterystyczne rekurencji w postaci \\(a_{n}=\\lambda^n\\)",
+                "\\(\\lambda\\) - do wyznaczenia<br>\\(\\lambda^n=c_{1}\\lambda^{n-1}+c_{2}\\lambda^{n-2}+...+c_{r}\\lambda^{n-r} \\vert :\\lambda^{n-r}\\)&nbsp;<br>\\(\\lambda^r=c_{1}\\lambda^{r-1}+c_{2}\\lambda^{r-2}+...+c_{r}\\)&nbsp;- równanie charakterystyczne<br><br>\\(w(\\lambda) = \\lambda^{r}-c_{1}\\lambda^{r-1}-...-c_{r}\\) - wielomian charakterysytczny<br><br>Wykonujemy&nbsp;\\(w(\\lambda) = 0\\), żeby znaleźć \\(\\lambda\\)."
+            ],
+            "guid": "OhE31|0Xll",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Podstawowe twierdzenie algebry",
+                "Wielomian stopnia \\(r\\) o współczynnikach zespolonych ma dokładnie \\(r\\) pierwiastków liczonych z krotnościami."
+            ],
+            "guid": "hi+8QR_@^?",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Liczba rozwiązań \\(lambda\\) w rekurencji.",
+                "Jeśli wszystkie pierwiastki wielomianu charakterystycznego są różne to otrzymujemy \\(r\\) rozwiązań \\(\\lambda_{1}^{n}, \\lambda_{2}^{n}, ..., \\lambda_{r}^{n}\\) - rozwiązania podstawowe"
+            ],
+            "guid": "F_oip;8-RI",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Twierdzenie o dowolnej kombinacji liniowej (nazwa moja)",
+                "Dowolna kombinacja liniowa \\(\\alpha_{1}a_{n}'+\\alpha_{2}a_{n}''\\)&nbsp;dwóch rozwiązań \\(a_{n}', a_{n}''\\)&nbsp;rekurencji liniowej jednorodnej jest rozwiązaniem tej rekurecji"
+            ],
+            "guid": "HKZqSv6=3.",
             "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
             "tags": []
         }
