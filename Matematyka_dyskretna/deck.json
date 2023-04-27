@@ -421,6 +421,36 @@
             "guid": "HKZqSv6=3.",
             "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
             "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Rekurencja liniowa niejednorodna o stałych współczynnikach",
+                "\\(a_{n}=c_{1}a_{n-1}+...+c_{r}a_{n-r}+f(n)\\)<br>\\(a_{n}=c_{1}a_{n-1}+...+c_{r}a_{n-r}\\) - część jednorodna<br>\\(f(n)\\) - składnik niejednorodny<br>"
+            ],
+            "guid": "i)>|g-X_Z)",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Twierdenie o rozwiązaniu ogólny rekurencji niejednorodnej (moja nazwa)",
+                "Rowziązanie ogólne rekurencji niejednorodnej jest sumą rozwiązania ogólnego(\\(a_{n}^o\\)) rekurencji jednorodnej i rozwiązania szczególnego(\\(a_{n}^s\\))&nbsp;rekurencji niejednorodnej.<br>\\(a_{n}=a_{n}^o+a_{n}^s\\)"
+            ],
+            "guid": "O8BW:>B}}6",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Twierdzenie o liczbach Catalana (moja nazwa)",
+                "Liczby Catalana spełniają rekurencję \\(C_{n-1}=C_{0}C_{n}+C_{1}C_{n-1}+...+C_{n}C_{0}\\) przy czym \\(C_{0}=1\\). Rekurencja Catalana jest nieliniowa i nie ma określonej głębokości."
+            ],
+            "guid": "e9h!8tTQQ*",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
         }
     ],
     "reviewLimit": null,
