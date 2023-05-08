@@ -451,6 +451,16 @@
             "guid": "e9h!8tTQQ*",
             "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
             "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Podziały(partycje) liczb",
+                "<ol><li>Partycje\\(\\begin{align} \\displaystyle\n&amp;\\pi(x)=P(1)x+P(2)x^2+P(3)+...=\\\\&amp;=\\sum_{k=1}^{\\infty}P(k)x^k=\\\\&amp;=(1+x+x^2+x^3+...)*(1+x+x^2+x^3+...)*(1+x^2+x^3+...)*...=\\\\&amp;=\\prod_{L=1}^{\\infty}\\frac{1}{1-x^L}\n\\end{align}   \\)<br></li><li>Partycje z różnymi składnikami\\(\\begin{align} \\displaystyle\n&amp;\\pi_{d}(x)=\\\\&amp;=\\sum_{k=1}^{\\infty}P_{d}(k)x^k=\\\\&amp;=(1+x)(1+x^2)(1+x^3)(1+x^4)...=\\\\&amp;=\\prod_{L=1}^{\\infty}\\frac{1}{1-x^L}\\end{align}\\)<br><br></li><li>Partycje z nieparzystymi składnikami\\(\\begin{align} \\displaystyle\n\n&amp;\\pi_{o}(x)=\\\\&amp;=\\sum_{k=1}^{\\infty}P_{d}(k)x^k=\\\\&amp;=\\frac{1}{1-x}*\\frac{1}{1-x^3}*\\frac{1}{1-x^5}*...=\\\\&amp;=\\prod_{L=1}^{\\infty}\\frac{1}{1-x^{2L-1}}\\end{align}\\)</li></ol>"
+            ],
+            "guid": "OId4Dq<5(E",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
         }
     ],
     "reviewLimit": null,
