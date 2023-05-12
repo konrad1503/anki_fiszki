@@ -68,6 +68,7 @@
         "latex-1a01272ffc7567473e13fabb001a835d9195e609.png",
         "latex-1a5d799dc813ff04d8a01c53c20e188171cf17a2.png",
         "latex-1ca50774455756a90996924a50f129437b434998.png",
+        "latex-1f4da2ec0bce698d50af7fa56506774f6caf12d4.png",
         "latex-22e938d52046b2353962a46f44a132866f840049.png",
         "latex-2523fbecee8fa8f750e6ec8bd2e66701763cf9d8.png",
         "latex-26734c9e0ec0ec90045bffd96048daeb44565bf0.png",
@@ -75,7 +76,6 @@
         "latex-29c97b8e6a12db0126f44c11f9f044c2b8ea9f96.png",
         "latex-3742db62af0ab3ffbd9bbf6331a227c88e04c985.png",
         "latex-3ebea721fc982a3c4c906dd2cba0dc7846297dca.png",
-        "latex-42cb7e1ace3fe942b875d99cb208a2e26021c5fa.png",
         "latex-42d2a3e96641790d4b367b7dce4e1e809443140b.png",
         "latex-441106d54933334204c52edc2a36d7cdc89f7b38.png",
         "latex-4a5ee90c045fa6d535b59419e5cd3c389d3d902e.png",
@@ -525,7 +525,7 @@
             "__type__": "Note",
             "fields": [
                 "Twierdzenie o liczbach Catalana (moja nazwa)",
-                "Liczby Catalana spełniają rekurencję [$$]C_{n-1}=C_{0}C_{n}+C_{1}C_{n-1}+...+C_{n}C_{0}[/$$] przy czym [$$]C_{0}=1[/$$]. Rekurencja Catalana jest nieliniowa i nie ma określonej głębokości."
+                "Liczby Catalana spełniają rekurencję [$$]C_{n}=C_{0}C_{n-1}+C_{1}C_{n-2}+...+C_{n-1}C_{0}[/$$] przy czym [$$]C_{0}=1[/$$]. Rekurencja Catalana jest nieliniowa i nie ma określonej głębokości."
             ],
             "guid": "e9h!8tTQQ*",
             "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
