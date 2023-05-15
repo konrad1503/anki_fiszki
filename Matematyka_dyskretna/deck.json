@@ -60,6 +60,7 @@
     "extendRev": 0,
     "media_files": [
         "328657779_1961499867529070_5395575604957171134_n.jpg",
+        "latex-06925a70278f8cf04faf307cba9f97500bd1f65e.png",
         "latex-082845a19bca611364932267ed868f57af8362bd.png",
         "latex-0c4097201159fb76674871328da32617d6cf88f5.png",
         "latex-13b16360ecb286040f988da5c1e4629fc876ae12.png",
@@ -70,14 +71,17 @@
         "latex-1ca50774455756a90996924a50f129437b434998.png",
         "latex-1f4da2ec0bce698d50af7fa56506774f6caf12d4.png",
         "latex-22e938d52046b2353962a46f44a132866f840049.png",
+        "latex-240e9e6a5a945ff99b9e53435eff7e79624b4e21.png",
         "latex-2523fbecee8fa8f750e6ec8bd2e66701763cf9d8.png",
         "latex-26734c9e0ec0ec90045bffd96048daeb44565bf0.png",
         "latex-291ba45a7c0f5521a78ef3a6e04f25000a3a3f5c.png",
         "latex-29c97b8e6a12db0126f44c11f9f044c2b8ea9f96.png",
+        "latex-31b94d6938927aab6dabd11a3a02457e7e4762b2.png",
         "latex-3742db62af0ab3ffbd9bbf6331a227c88e04c985.png",
         "latex-3ebea721fc982a3c4c906dd2cba0dc7846297dca.png",
         "latex-42d2a3e96641790d4b367b7dce4e1e809443140b.png",
         "latex-441106d54933334204c52edc2a36d7cdc89f7b38.png",
+        "latex-45faed827ea7d45e5639d05fa4fc151051e1bf82.png",
         "latex-4a5ee90c045fa6d535b59419e5cd3c389d3d902e.png",
         "latex-4b1f8f4cf9a6d9a55fc93655506dc48aac04dfc2.png",
         "latex-4c1107790d766110a491d2a711f85d8a0e376975.png",
@@ -88,12 +92,14 @@
         "latex-62ab4ddaa23ca50d33eb6177dac12545e66915e2.png",
         "latex-62e6e788ab67f9acd98fbbb8432c66458f32321e.png",
         "latex-632f79ac362da961c5d1bee4703189935267fe15.png",
+        "latex-660f44980ae603f31bb7fb272760da7575d5d7c0.png",
         "latex-6aa2b7770868e1cd9ed62f7623b25d72b26e09cd.png",
         "latex-6ab09b882990c22f81b481be7f26a80e157d5913.png",
         "latex-6b3d4e4b6c43147760384ea8cfd46533b19fea9f.png",
         "latex-6d7405a6fd6e44e810d929c42958e479b0287404.png",
         "latex-6efaaf74e576202fad965134bc49c6a34aac4c30.png",
         "latex-78cf42a8b1e86b9bde2925c8a31dfeb503c38578.png",
+        "latex-79335f6159d131f240b5e9bab989e37896dbf50d.png",
         "latex-7ffdeab49430f4e40c87487b215736a79132bb01.png",
         "latex-82badae1eaec8487a625e48a8362d86d919fc6b1.png",
         "latex-82f9a447365e918701294ca973590b19160e573b.png",
@@ -109,6 +115,7 @@
         "latex-a21c9bd3bc7b1275aeceb467b82dc09fcb86253c.png",
         "latex-a5e57a96b4f6d38e094c9785daa5508c0606af0b.png",
         "latex-a9d3b115a2cb52f99f01d152fd024491d20ecde3.png",
+        "latex-aac391da06fef5639cd6bff2f3981c098cb84bce.png",
         "latex-addf138f72affd3c33b773cd6f8edf642f2d9794.png",
         "latex-ae76b480b182795d6ef57eef3bf1f2f13915d00b.png",
         "latex-b0afed736f2ea3ead42cef6752c1bddeab6d69b4.png",
@@ -122,18 +129,23 @@
         "latex-c07643f3efadd4c38ca2f206d7d660b31e14c0fa.png",
         "latex-c720ffc5175f0d9f2e52ed167c50021f4dc07bcd.png",
         "latex-c8918ea7f122e091fa1e09a6054b739b1cd631e9.png",
+        "latex-c94a78659c2caea756b8009667e579c17335d68e.png",
+        "latex-c9ee5681d3c59f7541c27a38b67edf46259e187b.png",
         "latex-caff5b854221ffda5ea0b80bd56fb14d53410163.png",
         "latex-d0a17e4bb72f071551ae9afddfb0edca5d985c58.png",
         "latex-d21b7daa86a696dace9c76e3f64ef9dd88d85606.png",
         "latex-dd6504c20ce8a95fad6a3bd18c0dc4c118f9ed15.png",
+        "latex-e0184adedf913b076626646d3f52c3b49c39ad6d.png",
         "latex-e1639e49ba4b06048ad867b15b831ad9afd56167.png",
         "latex-e45e503fc7bd4dbd10337b8b1f44729a150800f0.png",
+        "latex-e788d8b934f069f5767185891c43f2d7cae2000a.png",
         "latex-eb317d19f6ff73c402393f1623c830c61b91f7fc.png",
         "latex-ecfb65dd90273aee56bd9eeb5136571debe854e1.png",
         "latex-ed99b4f9590f023ad09575961d927c456620f87a.png",
         "latex-f0e24faa23367739f4c9d1a81d6197e00f077f41.png",
         "latex-f20f6a4cae20a4861ccf7b3daacd474e9b7e832b.png",
         "latex-f2bab4f251398343ab592c160de2c3c3931b4e55.png",
+        "latex-f3b9fea7667e0c70485e1f15426e2eb731634748.png",
         "latex-f3fb5b99621a6225666a37111984adf278e35dac.png",
         "latex-f9b2e604a25edbbe606ca4945782af221d20cc84.png"
     ],
@@ -538,6 +550,86 @@
                 "<ol><li>Partycje[latex]\\begin{align}\\pi(x)&amp;=P(1)x+P(2)x^2+P(3)+...=\\\\&amp;=\\sum_{k=1}^{\\infty}P(k)x^k=\\\\&amp;=(1+x+x^2+x^3+...)*(1+x+x^2+x^3+...)*(1+x^2+x^3+...)*...=\\\\&amp;=\\prod_{L=1}^{\\infty}\\frac{1}{1-x^L}\\end{align}<br>[/latex]</li><li>Partycje z różnymi składnikami[latex]\\begin{align}&nbsp;<br>\\pi_{d}(x)&amp;=\\sum_{k=1}^{\\infty}P_{d}(k)x^k=\\\\&amp;=(1+x)(1+x^2)(1+x^3)(1+x^4)...=\\\\&amp;=\\prod_{L=1}^{\\infty}\\frac{1}{1-x^L}\\end{align}[/latex]<br><br></li><li>Partycje z nieparzystymi składnikami[latex]\\begin{align}\\pi_{o}(x)&amp;=\\sum_{k=1}^{\\infty}P_{d}(k)x^k=\\\\&amp;=\\frac{1}{1-x}*\\frac{1}{1-x^3}*\\frac{1}{1-x^5}*...=\\\\&amp;=\\prod_{L=1}^{\\infty}\\frac{1}{1-x^{2L-1}}\\end{align}[/latex]</li></ol>"
             ],
             "guid": "OId4Dq<5(E",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Dodawanie funkcji tworzących",
+                "[$$]f(x)+g(x)=\\sum_{k=0}^\\infty a_{k}x^{k}+\\sum_{k=0}^\\infty b_{k}x^{k}=\\sum_{k=0}^\\infty (a_{k}+b_{k})x^{k}[/$$]"
+            ],
+            "guid": "AGN$lI=0A^",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Mnożenie funkcji tworzących(iloczyn Cauchy'ego szeregów)",
+                "[latex]\\begin{align}f(x) \\dot g(x)&amp;=(a_{0}+a_{1}x+a{2}x^{2}+...)(b_{0}+b_{1}x+b{2}x^{2}+...)=\\\\<br>&amp;=a_{0}b_{0}+x(a_{0}b_{1}+a_{1}b_{0})+x^{2}(a_{0}b_{2}+a_{1}b_{1}+a_{2}b_{0})+x^3(a_{0}b_{3}+a_{1}b_{2}+a_{2}b_{1}+a_{3}b_{0})+...=\\\\&amp;=\\sum_{k=0}^{\\infty}c_{k}x^{k}\\end{align}[/latex]"
+            ],
+            "guid": "k4{*|k7MlD",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Różniczkowanie funkcji tworzących",
+                "[$$]f'(x)=a_{1}+2a_{2}x+3a_{3}x^{2}+4a_{4}x^{3}+...=\\sum_{k=1}^{\\infty}ka_{k}x^{k-1}[/$$]"
+            ],
+            "guid": "D|sK>|G4.V",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Całkowanie funkcji tworzących",
+                "[$$]\\int f(x)dx=c+\\sum_{k=0}^{\\infty}a_{k}\\frac{x^{k+1}}{k+1}[/$$]"
+            ],
+            "guid": "PP!5sgK:a/",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definicja grafów (prostych)",
+                "Grafem prostym nazywamy parę&nbsp;[latex]G=(V, E)[/latex], gdzie&nbsp;[latex]V[/latex](vertex) jest zbiorem(skończonym), któRego elementy nazywamy wierzchołkami, a&nbsp;[latex]E[/latex](edge) jest zbiorem par wierzchołków, którego elementy nazywamy krawędziami"
+            ],
+            "guid": "imYX@myLrV",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Grafy, zbiory i elementy a ich właściwości",
+                "Część A:<br><ol><li>Kolejność elementów w parze jest nieistotna</li><li>Para nie składa się z dwóch takich samych wierzchołków</li><li>Para może być wzięta tylko raz</li></ol><div><br></div><div>Część B:</div><div><ol><li>Jeśli kolejność jest istotna mamy parę uporządkowaną czyli graf skierowany np.&nbsp;[$$]\\stackrel{\\rightarrow}{(v_{6},v_{8})}[/$$]</li><li>Jeśli składa się z dwóch takich samych wierzchołków mamy pętle</li><li>Jeśli może być wzięta kilka razy to&nbsp;[latex]E-multizbiór[/latex] i mówimy o krawędziach wielokrotnych</li></ol><div>Jeśli 2 i 3 z części B są dopuszczone to mamy graf ogólny</div></div>"
+            ],
+            "guid": "D{CHj;]qjh",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Stopień wierzchołka",
+                "[latex]degv[/latex]-liczba krawędzi wychodzących z wierzchołka"
+            ],
+            "guid": "HOE.Z9)yaL",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Twierdzenie o liczbie krawędzi",
+                "Jeżeli&nbsp;[$$]G=(V,E)[/$$] to graf ogólny to&nbsp;[$$]\\sum_{v \\in V}degv=2|E|[/$$]"
+            ],
+            "guid": "y!PIGu(2UM",
             "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
             "tags": []
         }
