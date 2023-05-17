@@ -108,6 +108,7 @@
         "latex-868d666f38b0175c57f95ad977c35ff267588190.png",
         "latex-8bd3f96ed30783eaf74491deff95d8e9eb523714.png",
         "latex-92d5235bc89735fc48894fc4d85459986aff8cfb.png",
+        "latex-9423fec7e087f3f578a305ec52c67ae4633815d7.png",
         "latex-9659975c27c6dbb02ac16b37bfe4c340f027c591.png",
         "latex-9deb0d431553c37fb182349886c10e3f5bca5c7a.png",
         "latex-a09cd3779d07ca8ee849f83c1e8f089c342e209a.png",
@@ -117,7 +118,6 @@
         "latex-a9d3b115a2cb52f99f01d152fd024491d20ecde3.png",
         "latex-aac391da06fef5639cd6bff2f3981c098cb84bce.png",
         "latex-addf138f72affd3c33b773cd6f8edf642f2d9794.png",
-        "latex-ae76b480b182795d6ef57eef3bf1f2f13915d00b.png",
         "latex-b0afed736f2ea3ead42cef6752c1bddeab6d69b4.png",
         "latex-b0b7e0ac1ff3ec569cca78eafe4442285662ee3f.png",
         "latex-b4a52ae8408d6385121bc2cce1c7372d9f27ab89.png",
@@ -547,7 +547,7 @@
             "__type__": "Note",
             "fields": [
                 "Podziały(partycje) liczb",
-                "<ol><li>Partycje[latex]\\begin{align}\\pi(x)&amp;=P(1)x+P(2)x^2+P(3)+...=\\\\&amp;=\\sum_{k=1}^{\\infty}P(k)x^k=\\\\&amp;=(1+x+x^2+x^3+...)*(1+x+x^2+x^3+...)*(1+x^2+x^3+...)*...=\\\\&amp;=\\prod_{L=1}^{\\infty}\\frac{1}{1-x^L}\\end{align}<br>[/latex]</li><li>Partycje z różnymi składnikami[latex]\\begin{align}&nbsp;<br>\\pi_{d}(x)&amp;=\\sum_{k=1}^{\\infty}P_{d}(k)x^k=\\\\&amp;=(1+x)(1+x^2)(1+x^3)(1+x^4)...=\\\\&amp;=\\prod_{L=1}^{\\infty}\\frac{1}{1-x^L}\\end{align}[/latex]<br><br></li><li>Partycje z nieparzystymi składnikami[latex]\\begin{align}\\pi_{o}(x)&amp;=\\sum_{k=1}^{\\infty}P_{d}(k)x^k=\\\\&amp;=\\frac{1}{1-x}*\\frac{1}{1-x^3}*\\frac{1}{1-x^5}*...=\\\\&amp;=\\prod_{L=1}^{\\infty}\\frac{1}{1-x^{2L-1}}\\end{align}[/latex]</li></ol>"
+                "<ol><li>Partycje[latex]\\begin{align}\\pi(x)&amp;=P(1)x+P(2)x^2+P(3)+...=\\\\&amp;=\\sum_{k=1}^{\\infty}P(k)x^k=\\\\&amp;=(1+x+x^2+x^3+...)*(1+x+x^2+x^3+...)*(1+x^2+x^3+...)*...=\\\\&amp;=\\prod_{L=1}^{\\infty}\\frac{1}{1-x^L}\\end{align}<br>[/latex]</li><li>Partycje z różnymi składnikami[latex]\\begin{align}&nbsp;<br>\\pi_{d}(x)&amp;=\\sum_{k=1}^{\\infty}P_{d}(k)x^k=\\\\&amp;=(1+x)(1+x^2)(1+x^3)(1+x^4)...=\\\\&amp;=\\prod_{L=1}^{\\infty}(1-x^L)\\end{align}[/latex]<br><br></li><li>Partycje z nieparzystymi składnikami[latex]\\begin{align}\\pi_{o}(x)&amp;=\\sum_{k=1}^{\\infty}P_{d}(k)x^k=\\\\&amp;=\\frac{1}{1-x}*\\frac{1}{1-x^3}*\\frac{1}{1-x^5}*...=\\\\&amp;=\\prod_{L=1}^{\\infty}\\frac{1}{1-x^{2L-1}}\\end{align}[/latex]</li></ol>"
             ],
             "guid": "OId4Dq<5(E",
             "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
