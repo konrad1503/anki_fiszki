@@ -61,6 +61,7 @@
     "media_files": [
         "328657779_1961499867529070_5395575604957171134_n.jpg",
         "Przechwytywanie.PNG",
+        "latex-00cb50e4b2bd134ad8aad54a47b5c2f1923181a0.png",
         "latex-0318e939af29ed9a75a781934008559b27e3e91c.png",
         "latex-032d2fe36d78a05d6752944972c8e7dcec4be1f1.png",
         "latex-06925a70278f8cf04faf307cba9f97500bd1f65e.png",
@@ -117,6 +118,7 @@
         "latex-82f9a447365e918701294ca973590b19160e573b.png",
         "latex-837058c2ee8093a0ea318235121600d46b14d41f.png",
         "latex-84ae8d007ac96b4d78d4a30679de2931a473063b.png",
+        "latex-854c6ae1602e0e42b41d8fd4c5f7e3e2398890da.png",
         "latex-868d666f38b0175c57f95ad977c35ff267588190.png",
         "latex-8bd3f96ed30783eaf74491deff95d8e9eb523714.png",
         "latex-8ccb8eef5f772276e84c6dd7639b56db664907b0.png",
@@ -745,6 +747,86 @@
                 "<img src=\"siemson.jpeg\">"
             ],
             "guid": "mo#R9GmGDk",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Droga",
+                "trasa, w której wierzchołki się nie powtarzają"
+            ],
+            "guid": "z#uAWUt(U^",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Cykl",
+                "trasa zamknięta w której wierzchołki się nie powtarzają za wyjątkiem początku który równy jest końcu"
+            ],
+            "guid": "r@x{>&UU!k",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Twierdzenie o ograniczeniach liczby krawędzi",
+                "Niech G będzie grafem prostym mającym n wierzchołków, m krawędzi oraz k składowych spójnych, wtedy<br>[$$]n-k \\leq m \\leq \\frac{(n-k)(n-k+1)}{2}[/$$]"
+            ],
+            "guid": "hZ@R#9`Zkp",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Las",
+                "graf acykliczny(bez cykli)"
+            ],
+            "guid": "z]i)7ivFve",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Drzewo",
+                "graf acykliczny spójny"
+            ],
+            "guid": "t=)yQ|_y(N",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Fakt o drzewach dotyczący spójności",
+                "Usunięcie krawędzi z drzewa niszczy jego spójność"
+            ],
+            "guid": "yPDilBD.n4",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Fakt o droga w drzewie",
+                "Dlw dowolnych dwóch wierzchołków w drzewie istnieje dokładnie jedna <u>droga</u>&nbsp;je łącząca"
+            ],
+            "guid": "iI?x8j9Eal",
+            "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Macierzowe twierdzenie o drzewach",
+                "Liczba drzew rozpinająych grafu G <u>bez pętli</u> jest równa dopełnieniu algebraicznemu dowolnego elementu macierzy<br>[$$]L(G)=D(G)-A(G)[/$$]<br>L(G) - macierz Laplace'a grafu G"
+            ],
+            "guid": "ii,y&XHQ>3",
             "note_model_uuid": "558abc08-b778-11ed-9724-6014b3626a8e",
             "tags": []
         }
