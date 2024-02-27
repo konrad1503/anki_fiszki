@@ -1,0 +1,312 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "f9959ae2-d542-11ee-a32e-6014b3626a8e",
+    "deck_config_uuid": "f995ae42-d542-11ee-94ba-6014b3626a8e",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "f995ae42-d542-11ee-94ba-6014b3626a8e",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.6
+            },
+            "maxTaken": 60,
+            "name": "LearnCPP",
+            "new": {
+                "bury": false,
+                "delays": [
+                    10.0,
+                    1440.0,
+                    4320.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    7,
+                    10,
+                    0
+                ],
+                "order": 0,
+                "perDay": 9999
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 90,
+                "perDay": 9999
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [],
+    "name": "LearnCPP",
+    "newLimit": null,
+    "newLimitToday": null,
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "name": "Front",
+                    "ord": 0,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "name": "Back",
+                    "ord": 1,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a statement?",
+                "A statement is an instruction in a computer program that tells the computer to perform an action."
+            ],
+            "guid": "yk;o-NVE;#",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a function?",
+                "A function is a collection of statements that executes sequentially."
+            ],
+            "guid": "Hc$X]wGXBK",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the name of the function that all programs must have?",
+                "main"
+            ],
+            "guid": "tO^i.IghMT",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "When a program is run, where does execution start?",
+                "Execution starts with the first statement inside the <em>main</em> function."
+            ],
+            "guid": "jktmp~>BzZ",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What symbol are statements in C++ often ended with?",
+                "The semicolon (<code>;</code>)"
+            ],
+            "guid": "}]9x#mgWF",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a syntax error?",
+                "A syntax error is a compiler error that occurs at compile-time when your program violates the grammar rules of the C++ language."
+            ],
+            "guid": "OIw|hR2^,W",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the C++ Standard Library?",
+                "A library file is a collection of precompiled code that has been \n“packaged up” for reuse in other programs. The C++ Standard Library is a\n library that ships with C++. It contains additional functionality to \nuse in your programs."
+            ],
+            "guid": "w)=vqWG|Zk",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is data?",
+                "Data is any information that can be moved, processed, or stored by a computer."
+            ],
+            "guid": "DU%x?1h^lt",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a value?",
+                "A value is a letter (e.g. <code>a</code>), number (e.g. <code>5</code>), text (e.g. <code>Hello</code>), or instance of some other useful concept that can be represented as data."
+            ],
+            "guid": "E`p4}}eZQ#",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a variable?",
+                "A variable is a named region of memory that can be used to store values."
+            ],
+            "guid": "z?^YmLN1[q",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is an identifier?",
+                "An identifier is the name that a variable is accessed by."
+            ],
+            "guid": "beDx{38Fa0",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is a type?",
+                "A type tells the program how to interpret a value in memory."
+            ],
+            "guid": "p5{v5(QHD(",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is an integer?",
+                "An integer is a number that can be written without a fractional component."
+            ],
+            "guid": "Px0>!dWpZ{",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the difference between initialization and assignment?",
+                "Initialization gives a variable an initial value at the point when it is\n created. Assignment gives a variable a value at some point after the \nvariable is created."
+            ],
+            "guid": "f8,+X=VJn",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What form of initialization should you prefer when you want to initialize a variable with a specific value?",
+                "Direct list initialization (aka. direct brace initialization)."
+            ],
+            "guid": "Dgsp@o-k*L",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are default initialization and value initialization? What is the behavior of each? Which should you prefer?",
+                "<div class=\"wpsolution\" id=\"cpp_solution_id_2\" style=\"display: block;\"><p>Default initialization is when a variable initialization has no initializer (e.g. <code>int x;</code>). In most cases, the variable is left with an indeterminate value.</p><p>Value initialization is when a variable initialization has an empty brace (e.g. <code>int x{};</code>). In most cases this will perform zero-initialization.</p><p>You should prefer value initialization to default initialization.</p></div>"
+            ],
+            "guid": "I.,>C5dMG3",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is an uninitialized variable? Why should you avoid using them?",
+                "An uninitialized variable is a variable that has not been given a value \nby the program (generally through initialization or assignment). Using \nthe value stored in an uninitialized variable will result in undefined \nbehavior."
+            ],
+            "guid": "f-TMefP*iJ",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is undefined behavior, and what can happen if you do something that exhibits undefined behavior?",
+                "Undefined behavior is the result of executing code whose behavior is not\n well defined by the language. The result can be almost anything, \nincluding something that behaves correctly."
+            ],
+            "guid": "t?zQ3no9C6",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        }
+    ],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}

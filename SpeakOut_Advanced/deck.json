@@ -1,0 +1,1162 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "f975cfac-d542-11ee-b4f4-6014b3626a8e",
+    "deck_config_uuid": "f975cfad-d542-11ee-a385-6014b3626a8e",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "f975cfad-d542-11ee-a385-6014b3626a8e",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.6
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    10.0,
+                    1440.0,
+                    4320.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    7,
+                    10,
+                    0
+                ],
+                "order": 0,
+                "perDay": 9999
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 180,
+                "perDay": 9999
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [],
+    "name": "SpeakOut Advanced",
+    "newLimit": null,
+    "newLimitToday": null,
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "name": "Front",
+                    "ord": 0,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "name": "Back",
+                    "ord": 1,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "keep yourself to yourself",
+                "zamknięty w sobie"
+            ],
+            "guid": "DIOOa&)=[U",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "behind closed doors",
+                "za zamkniętymi drzwiami"
+            ],
+            "guid": "IDbB52&52/",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "let it slip",
+                "puścić farbę"
+            ],
+            "guid": "uM-.e)qD/V",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "spill the beans",
+                "wygadać się"
+            ],
+            "guid": "p!P#Lz(_jB",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "keep/stay schtum",
+                "nie puścić pary z ust"
+            ],
+            "guid": "cY#dn(QK+7",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "let the cat out of the bag",
+                "puścić parę z ust"
+            ],
+            "guid": "f4AZvL&Zqa",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "give the game away",
+                "wygadać się"
+            ],
+            "guid": "G=Gj{AP(Tt",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "classified information",
+                "informacja poufna"
+            ],
+            "guid": "u+D.QPS,d*",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "divulge a secret",
+                "ujawnić tajemnicę"
+            ],
+            "guid": "v$d,M!ll7j",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "disclose a secret",
+                "ujawnić tajemnicę"
+            ],
+            "guid": "Q%qXYUQ74:",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "between you and me",
+                "między nami"
+            ],
+            "guid": "2iYWC/+Qb",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "covert",
+                "tajny, ukradkowy"
+            ],
+            "guid": "G;a)@Z20)s",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "have sth to hide",
+                "mieć coś do ukrycia"
+            ],
+            "guid": "q.W~=b-hK4",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "look furtive",
+                "wyglądać podejrzanie"
+            ],
+            "guid": "K|j+Rs]*6(",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "hush-hush",
+                "tajny"
+            ],
+            "guid": "qnc[W&p.c#",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "confidential",
+                "poufny"
+            ],
+            "guid": "eMdn=DW4&d",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "blurt out",
+                "palnąć, wypaplać"
+            ],
+            "guid": "F(NrhHcT);",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "top secret",
+                "ściśle tajny"
+            ],
+            "guid": "E1=~S^4hv!",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "allowed",
+                "dozwolony"
+            ],
+            "guid": "HRM=u:Xk{R",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "forbidden",
+                "zakazany"
+            ],
+            "guid": "GEyTbgY#^Y",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "obligatory",
+                "obowiązkowy"
+            ],
+            "guid": "z}[<N>4Vdu",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "have the courage",
+                "mieć odwagę"
+            ],
+            "guid": "J(wwvT3:hk",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "permissable",
+                "dozwolony"
+            ],
+            "guid": "HJtQ:KZySE",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "feel compelled",
+                "czuć się zmuszonym"
+            ],
+            "guid": "lh1(7%+e&}",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "to dare",
+                "ośmielić się"
+            ],
+            "guid": "b=1<x6l-*3",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "compulsory",
+                "obowiązkowy"
+            ],
+            "guid": "l8!?QwISyZ",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "be forced",
+                "zostać zmuszonym"
+            ],
+            "guid": "k-!ZLe7Wa3",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "eager",
+                "ochoczy"
+            ],
+            "guid": "cNPIAB=}%}",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "unassuming",
+                "skromny"
+            ],
+            "guid": "d[$l9PYDRO",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "to consent",
+                "zgodzić się"
+            ],
+            "guid": "Q/q2+cuO<_",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "conventional wisdom",
+                "popularny pogląd"
+            ],
+            "guid": "AQ;b$fs71:",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "commonly held perception",
+                "powszechna opinia"
+            ],
+            "guid": "l8^%,NI24r",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "fallacy",
+                "błędne przekonanie"
+            ],
+            "guid": "lSYQR%p{*G",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "verify",
+                "weryfikować"
+            ],
+            "guid": "yNNJ!$@9x2",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "uncover the truth",
+                "odkryć prawdę"
+            ],
+            "guid": "K9NrRyAgw<",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "intuitively true",
+                "intuicyjnie prawdziwe"
+            ],
+            "guid": "bVoF,ZiXE0",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "debunk a myth",
+                "obalić mit"
+            ],
+            "guid": "I5FJ&MjL<n",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "disprove a myth",
+                "obalić mit"
+            ],
+            "guid": "N^S7&b-](;",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "text message",
+                "sms"
+            ],
+            "guid": "dnG~`d2X~K",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "video game",
+                "gra komputerowa"
+            ],
+            "guid": "s_FjO){#UE",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "fast food",
+                "fast food"
+            ],
+            "guid": "r2qs5268>3",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "social networking website",
+                "portal społecznościowy"
+            ],
+            "guid": "e@stj9D!dc",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "shopping mall",
+                "centrum handlowe"
+            ],
+            "guid": "JXk)q*LqO^",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "mobile phone",
+                "telefon komórkowy"
+            ],
+            "guid": "xH86cg$w,T",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "mobile device",
+                "urządzenie mobilne"
+            ],
+            "guid": "O9ku2#2E2v",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "speed up",
+                "przyspieszyć"
+            ],
+            "guid": "fTTLQR%)f}",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "brighten up",
+                "rozpogodzić"
+            ],
+            "guid": "rJC?!,uAg0",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "jazz up",
+                "ożywić"
+            ],
+            "guid": "s7RI)89]+v",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "go on",
+                "trwać"
+            ],
+            "guid": "f=ze%&+mM3",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "keep on",
+                "kontynuować"
+            ],
+            "guid": "n@^<(&ssde",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "pension off",
+                "przenieść na emeryturę"
+            ],
+            "guid": "E.B@Q#0xd^",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "cry off",
+                "wycofać się"
+            ],
+            "guid": "M,ZrUG#;O*",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "call off",
+                "odwołać"
+            ],
+            "guid": "C?1&C&i5d{",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "switch off",
+                "wyłączyć"
+            ],
+            "guid": "A`Js94{fj~",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "find out",
+                "odkryć"
+            ],
+            "guid": "k^wxxr1Uo@",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "speak out",
+                "wypowiedzieć się"
+            ],
+            "guid": "o~Ew)uS-dE",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "stand out",
+                "wyróżniać się"
+            ],
+            "guid": "MWBAmWg1w_",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "call out",
+                "zawołać"
+            ],
+            "guid": "F[mXrJvG`@",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "slow down",
+                "zwolnić"
+            ],
+            "guid": "OkVZI=p.sX",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "narrow down",
+                "zawęzić"
+            ],
+            "guid": "z0=[t_KwhG",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "crack down",
+                "rozprawić się"
+            ],
+            "guid": "G{Ip^`qsw5",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "put away",
+                "schować"
+            ],
+            "guid": "b7kV&ybNnl",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "blow away",
+                "zwiać"
+            ],
+            "guid": "QDzrt#Y&6:",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "take away",
+                "zabrać"
+            ],
+            "guid": "ygAofqZ%tu",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "bring back",
+                "przywrócić"
+            ],
+            "guid": "NJknJDI;W2",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "think back",
+                "cofać się myślami"
+            ],
+            "guid": "Magr:9]YuH",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "look back",
+                "patrzeć wstecz"
+            ],
+            "guid": "jH?Bj_;hn_",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "cast your mind back",
+                "sięgać pamięcią"
+            ],
+            "guid": "M~IlO7]YY`",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "mess around",
+                "wygłupiać się"
+            ],
+            "guid": "H0,OX~8i?!",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "stand around",
+                "stać bezczynnie"
+            ],
+            "guid": "Klr)=uAE?u",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "hang around",
+                "kręcić się"
+            ],
+            "guid": "I:N*9|)je!",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "mull over",
+                "rozważać"
+            ],
+            "guid": "lT7D>#l1d?",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "pore over",
+                "studiować"
+            ],
+            "guid": "G^g`w`te+{",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "look over",
+                "przejrzeć"
+            ],
+            "guid": "cV=:zB&l)K",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "think over",
+                "przemyśleć"
+            ],
+            "guid": "s.i|vC+Dfw",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "talk over",
+                "omówić"
+            ],
+            "guid": "b{n(nhJ?}&",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "look up",
+                "poprawiać się"
+            ],
+            "guid": "kDzs6izYhC",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "soldier on",
+                "nie poddawać się"
+            ],
+            "guid": "N-vI^VE&n]",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "kill off",
+                "uśmiercać"
+            ],
+            "guid": "k.Gblq.s(q",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "calm down",
+                "uspokoić"
+            ],
+            "guid": "DwZ4*_y]cR",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "tidy up",
+                "posprzątać"
+            ],
+            "guid": "Eku0e$Lj)9",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "slip back to your old ways",
+                "wrócić do starych nawyków"
+            ],
+            "guid": "wO6M,/Tt$n",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "lounge around",
+                "wylegiwać się"
+            ],
+            "guid": "oEQ-xU+0AM",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "investigative journalism",
+                "dziennikarstwo śledcze"
+            ],
+            "guid": "FqgCUT?rxS",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "take out an injunction",
+                "uzyskać nakaz sądowy"
+            ],
+            "guid": "ixIZ^E6S~%",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "whistle-blowing",
+                "demaskatorski"
+            ],
+            "guid": "hTTKCvHYUy",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "sensitive information",
+                "dane wrażliwe"
+            ],
+            "guid": "K&7E.4Wf1j",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "scoop",
+                "gorący temat"
+            ],
+            "guid": "n&5<qHucNX",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "protect sources",
+                "chronić źródła"
+            ],
+            "guid": "M5>}Tm^u?H",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "abandoned",
+                "porzucony"
+            ],
+            "guid": "H%pj?yeRM0",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "rehabilitation",
+                "rehabilitacja"
+            ],
+            "guid": "c`MMqzDr/y",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "quarantine",
+                "kwarantanna"
+            ],
+            "guid": "yt,x70R$d&",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "infectious diseases",
+                "choroby zakaźne"
+            ],
+            "guid": "oI6Eg]VjO`",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "rubble",
+                "gruz"
+            ],
+            "guid": "cLgg6|N#&j",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "disintegrating",
+                "rozpadający się"
+            ],
+            "guid": "KHGFUW?`{&",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "off limits",
+                "niedostępny"
+            ],
+            "guid": "w,CA~PT~M3",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "bizarre",
+                "dziwaczny"
+            ],
+            "guid": "bXzEM0_(wI",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "burgeoning",
+                "rosnący"
+            ],
+            "guid": "tTkBU:TE=I",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "constant",
+                "stały"
+            ],
+            "guid": "b(.!cve!3O",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "contagious",
+                "zaraźliwy"
+            ],
+            "guid": "BosxPxF!PU",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "juvenile",
+                "młodociany"
+            ],
+            "guid": "t=Y,jp]6iy",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "vibrant",
+                "intensywny"
+            ],
+            "guid": "z,o[;ai))h",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "wonderful",
+                "cudowny"
+            ],
+            "guid": "zYO?44F{!9",
+            "note_model_uuid": "f9766491-d542-11ee-abfc-6014b3626a8e",
+            "tags": []
+        }
+    ],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}
